@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  basePath: '/lens-hover',
+  output: 'export',
+  images: { unoptimized: true },
+};
 
 export default nextConfig;
